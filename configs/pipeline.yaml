@@ -1,0 +1,16 @@
+keep_classes: ["dish_name","price","description","section_title"]
+name_map:
+  dish_name: dish_name
+  price: price
+  description: description
+  section_title: section_title
+  dishname: dish_name
+  item_name: dish_name
+  item: dish_name
+  title: section_title
+  section: section_title
+  desc: description
+  amount: price
+  value: price
+  restaurant_name: null
+  menu_elements: null

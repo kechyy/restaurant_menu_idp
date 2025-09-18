@@ -1,0 +1,11 @@
+easyocr:
+  enabled: true
+  languages: ["en"]
+  gpu_enabled: false
+paddleocr:
+  enabled: true
+  lang: "en"
+  use_angle_cls: true
+layout:
+  enable_layoutlm: false         # turn true when model is ready
+  model_dir: models/layoutlm      # path to your fine-tuned LayoutLM(v3)

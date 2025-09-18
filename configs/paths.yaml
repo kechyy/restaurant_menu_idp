@@ -1,0 +1,4 @@
+images_dir: data/raw_images
+yolo_weights: models/yolov8/best.pt
+save_crops_dir: data/out/crops
+output_json: data/out/annotations.json

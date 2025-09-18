@@ -1,0 +1,23 @@
+name: menu-idp
+channels: [conda-forge, pytorch, nvidia]
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8         # remove this line if CPU-only
+  - pip:
+      - ultralytics==8.3.0
+      - opencv-python-headless
+      - numpy
+      - Pillow
+      - tqdm
+      - pydantic
+      - pyyaml
+      - python-dotenv
+      - transformers==4.43.4
+      - tokenizers
+      - easyocr
+      - paddleocr            # CPU by default; GPU needs separate paddlepaddle-gpu
+      - shapely
